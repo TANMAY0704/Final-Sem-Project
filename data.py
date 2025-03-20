@@ -39,7 +39,7 @@ if __name__ == '__main__':
         stock_codes = get_stock_codes()
         print(f"Found {len(stock_codes)} stocks.")
         
-        folder_path = 'nse_stock_data_all_time'
+        folder_path = 'nse_stock_data'
         download_stock_data(stock_codes, folder_path)
         print(f"Stock data downloaded and saved to {folder_path}.")
     except Exception as e:
