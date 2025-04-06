@@ -62,7 +62,7 @@ X_input = np.reshape(last_sequence, (1, sequence_length, 1))
 
 # --- Load Model Based on Ticker ---
 if ".NS" in ticker:
-    model_path = r"C:\GIT REPOS\Final-Sem-Project\TEST\2010\MODEL.h5"
+    model_path = r"C:\GIT REPOS\Final-Sem-Project\Final\preduction_forcaste.keras"
 else:
     model_path = r"C:\GIT REPOS\Final-Sem-Project\TEST\2010\^NSEI.h5"
 
